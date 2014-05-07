@@ -1,0 +1,57 @@
+[
+  {
+    "remote": "remove",
+    "target_path": "AOSPA-legacy/android_hardware_libhardware_legacy"
+    },
+  {
+    "remote": "remove",
+    "target_path": "AOSPA-legacy/android_frameworks_av"
+    },
+  {
+    "remote": "cm",
+    "revision": "master",
+    "repository": "SeannyM/android_kernel_samsung_kylessopen",
+    "target_path": "kernel/samsung/kylessopen"
+  },
+  {
+    "remote": "cm",
+    "revision": "master",
+    "repository": "SeannyM/android_vendor_samsung_kylessopen",
+    "target_path": "vendor/samsung/kylessopen"
+  },
+  {
+    "remote": "cm",
+    "revision": "cm-11.0",
+    "repository": "legaCyMod/android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm"
+  },
+  {
+    "remote": "cm",
+    "revision": "cm-11.0",
+    "repository": "legaCyMod/android_frameworks_av",
+    "target_path": "frameworks/av"
+  },
+  {
+    "remote": "cm",
+    "revision": "cm-11.0",
+    "repository": "legaCyMod/android_hardware_qcom_display-legacy",
+    "target_path": "hardware/qcom/display-legacy"
+  },
+  {
+    "remote": "cm",
+    "revision": "cm-11.0",
+    "repository": "legaCyMod/android_hardware_qcom_media-legacy",
+    "target_path": "hardware/qcom/media-legacy"
+  },
+  {
+    "remote": "cm",
+    "revision": "cm-11.0",
+    "repository": "johnnyslt/android_hardware_libhardware_legacy",
+    "target_path": "hardware/libhardware_legacy"
+  },
+  { "remote": "cm",
+    "revision": "cm-10.2",
+    "repository": "legaCyMod/android_hardware_atheros_wlan",
+    "target_path": "hardware/atheros/wlan"
+  }
+ ]
